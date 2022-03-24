@@ -1,0 +1,72 @@
+p a {
+  cursor: pointer;
+  color: #5495ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+a.nav-link {
+  color: #5495ff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.nav-link:active {
+  color: #005db9;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 2px solid #5495ff;
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+  background: #5495FF linear-gradient(#2176FF, #5495FF);
+  font-family: Raleway, sans-serif;
+  box-shadow: 0 4px 4px #0560ea;
+  text-align: center;
+  margin: auto;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn:active {
+  font-size: 1.1rem;
+  transition: font-size 0.1s ease-in;
+}
+
+.activity {
+  background: linear-gradient(#2176FF, #5495ff);
+  cursor: pointer;
+  border: 2px solid #2176FF;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px #0560ea;
+}
+
+.activity:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2.2rem;
+  transition: font-weight 0.1s ease-in, font-size 0.1s ease-in;
+}
+
+.activity:active {
+  font-size: 3rem;
+  transition: font-size 0.1s ease-in;
+}
